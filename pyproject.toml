@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "hypermodern-python"
+version = "0.1.0"
+description = "The hypermodern Python project"
+license = "GNU"
+authors = ["antikytheraton <16123078+antikytheraton@users.noreply.github.com>"]
+readme = "README.md"
+homepage = "https://github.com/antikytheraton/hypermodern-python"
+repository = "https://github.com/antikytheraton/hypermodern-python"
+keywords = ["hypermodern"]
+
+[tool.poetry.scripts]
+hypermodern-python = "hypermodern_python.console:main"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.1.3"
+requests = "^2.31.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
