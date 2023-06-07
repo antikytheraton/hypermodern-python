@@ -9,6 +9,9 @@ def test_random_page_uses_given_language(mock_requests_get):
     assert "de.wikipedia.org" in args[0]
 
 
-def test_main_uses_specified_language(runner: CliRunner, mock_wikipedia_random_page):
+def test_main_uses_specified_language(
+    runner: CliRunner,
+    mock_wikipedia_random_page,
+):
     runner.invoke(console.main, ["--language=pl"])
     mock_wikipedia_random_page.assert_called_with(language="pl")

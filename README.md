@@ -35,3 +35,13 @@ nox -r
 ```bash
 nox -rs tests-3.9 -- -m e2e
 ```
+
+## Run only lint checks
+```bash
+nox -rs lint
+```
+
+## Run only black formatter
+```bash
+nox -rs black
+```
