@@ -1,5 +1,8 @@
-# hypermodern-python
-Hypermodern Python
+[![Tests](https://github.com/antikytheraton/hypermodern-python/workflows/Tests/badge.svg)](https://github.com/antikytheraton/hypermodern-python/actions?workflow=Tests)
+
+[![Codecov](https://codecov.io/gh/antikytheraton/hypermodern-python/branch/master/graph/badge.svg)](https://codecov.io/gh/antikytheraton/hypermodern-python)
+
+# Hypermodern Python
 
 
 # Chapter 1: Setup
