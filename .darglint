@@ -1,0 +1,5 @@
+# -*- mode: toml -*-
+# vi: set ft=toml :
+
+[darglint]
+strictness = short
